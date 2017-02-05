@@ -1,7 +1,7 @@
 .content-section {
 	padding-bottom: 2rem;
 
-	@media screen and (min-width: 1024px) {
+	@media screen and (min-width: 800px) {
 		display: table;
 		width: 100%;
 		padding-bottom: 0;
@@ -19,9 +19,9 @@
 			}
 		}
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 800px) {
 			display: table-cell;
-			width: 25%;
+			width: 33%;
 			text-align: right;
 			vertical-align: top;
 			padding: 2rem;
@@ -46,19 +46,18 @@
 		button {
 			margin-top: 1rem;
 
-			@media screen and (min-width: 1024px) {
+			@media screen and (min-width: 800px) {
 				margin-top: 4rem;
 			}
 		}
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 800px) {
 			display: table-cell;
 			width: 75%;
 			vertical-align: top;
 			padding: 2rem 4rem 4rem;
 
 			p {
-				font-size: 1.25rem;
 				max-width: 640px;
 			}
 		}

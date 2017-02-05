@@ -2,17 +2,18 @@
 	background: #eee;
 	padding: 2rem;
 
-	@media screen and (min-width: 1024px) {
+	@media screen and (min-width: 800px) {
 		padding: 4rem 2rem;
 	}
 
 	.item {
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 800px) {
 			display: table;
 			width: 100%;
 			max-width: 1200px;
 			margin: auto;
+			vertical-align: middle;
 		}
 
 		img {
@@ -20,13 +21,13 @@
 			width: 100%;
 		}
 
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 800px) {
 
 			p {
 				display: table-cell;
 				vertical-align: middle;
 				padding: 0 8rem;
-				width: 65%;
+				max-width: 500px;
 				font-size: 1.25rem;
 			}
 		}

@@ -9,6 +9,12 @@
 			padding: .5rem .5rem;
 			text-decoration: none;
 		}
+
+		@media screen and (min-width: 800px) {
+			display: table-cell;
+			text-align: left;
+			vertical-align: middle;
+		}
 	}
 
 	.link-list.social {
@@ -23,10 +29,17 @@
 
 			a {
 				display: block;
-				height: 32px;
-				width: 32px;
+				height: 48px;
+				width: 48px;
 				background: #999;
 			}
+		}
+
+		@media screen and (min-width: 800px) {
+			display: table-cell;
+			text-align: right;
+			margin-top: 0;
+			vertical-align: middle;
 		}
 	}
 }

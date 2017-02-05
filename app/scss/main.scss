@@ -1,3 +1,26 @@
+@import "_normalize";
+@import "_mixins";
+
 body {
-	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		max-width: 1200px;
+		width: 100%;
+		margin: 0 auto;
+		display: table;
+	}
+}
+@import "partials/_header";
+@import "partials/_hero";
+@import "partials/_button";
+@import "partials/_link-list";
+@import "partials/_items";
+@import "partials/_content";
+@import "partials/_footer";

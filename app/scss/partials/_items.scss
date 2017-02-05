@@ -1,0 +1,38 @@
+.items {
+	background: #eee;
+	padding: 2rem;
+
+	@media screen and (min-width: 1024px) {
+		padding: 4rem 2rem;
+	}
+
+	.item {
+
+		@media screen and (min-width: 1024px) {
+			display: table;
+			width: 100%;
+			max-width: 1200px;
+			margin: auto;
+		}
+
+		img {
+			height: auto;
+			width: 100%;
+		}
+
+		@media screen and (min-width: 1024px) {
+
+			p {
+				display: table-cell;
+				vertical-align: middle;
+				padding: 0 8rem;
+				width: 65%;
+				font-size: 1.25rem;
+			}
+		}
+
+		+ .item {
+			margin-top: 4rem;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.main-footer {
+	padding: 2rem 1.5rem;
+	background: #eee;
+	text-align: center;
+
+	nav {
+		a {
+			display: inline-block;
+			padding: .5rem .5rem;
+			text-decoration: none;
+		}
+	}
+
+	.link-list.social {
+		margin-top: 3rem;
+
+		li {
+			display: inline-block;
+
+			+ li {
+				margin-left: 1rem;
+			}
+
+			a {
+				display: block;
+				height: 32px;
+				width: 32px;
+				background: #999;
+			}
+		}
+	}
+}
